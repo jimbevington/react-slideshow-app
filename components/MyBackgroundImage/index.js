@@ -27,7 +27,7 @@ const MyBackgroundImage = (props) => {
     <Animated.Image
       style={allStyles}
       source={props.source}
-      resizeMode='contain'
+      resizeMode='stretch'
       onLoad={props.onLoad}
     />
   )
